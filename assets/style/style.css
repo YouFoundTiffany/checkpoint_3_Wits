@@ -1,0 +1,143 @@
+/* BASIC STYLES HERE */
+:root {
+    --Bokara-Grey: #181716;
+    --Nero: #2a2727;
+    --Gondola: #393433;
+    --Davys-gray: #453f3d;
+    --Shadow-Gray: #57504d;
+    --Light-Gray: #a19b98;
+    --Coral-Blush-Delight: #E66464;
+    --Apricot-Dreamland: #E69F64;
+    --Sunshine-Sherbet: #f6b73c;
+    --Enchanted-Forest-Green: #50B850;
+    --Teal-Tranquility: #3C8A8A;
+}
+
+/* CUSTOM */
+.brdr-Bokara-Grey {
+    border: 4px;
+    border-style: solid;
+    border-color: var(--Bokara-Grey);
+    border-radius: 10px;
+}
+
+.brdr-Coral-Blush-Delight {
+    border: 4px;
+    border-style: solid;
+    border-color: var(--Coral-Blush-Delight);
+    border-radius: 10px;
+}
+
+.brdr-Apricot-Dreamland {
+    border: 4px;
+    border-style: solid;
+    border-color: var(--Apricot-Dreamland);
+    border-radius: 10px;
+}
+
+.brdr-Sunshine-Sherbet {
+    border: 4px;
+    border-style: solid;
+    border-color: var(--Sunshine-Sherbet);
+    border-radius: 10px;
+}
+
+.brdr-Enchanted-Forest-Green {
+    border: 4px;
+    border-style: solid;
+    border-color: var(--Enchanted-Forest-Green);
+    border-radius: 10px;
+}
+
+.brdr-Teal-Tranquility {
+    border: 4px;
+    border-style: solid;
+    border-color: var(--Teal-Tranquility);
+    border-radius: 10px;
+}
+
+.wit-image {
+    background-image: url(https://www.fabricresource.com/media/catalog/product/cache/776a9666b5e5b2e27bde1ed085f4425c/m/i/mi-fooled-bro.jpg);
+}
+
+.txt-brdr-rad {
+    border-radius: 10px;
+}
+
+#shortenedText {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.plusBtn {
+    background-color: var(--Light-Gray);
+    color: var(--Bokara-Grey);
+    font-weight: bold !important;
+}
+
+.plusBtn:hover {
+    transition-duration: 0.4s;
+    background-color: var(--Davys-gray);
+    color: var(--Light-Gray);
+    font-weight: bold !important;
+}
+
+
+
+/* UTILITY */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--Nero);
+    color: var(--Light-Gray)
+}
+
+/* bg and font colors */
+.bg-Bokora-Grey {
+    background-color: var(--Bokara-Grey);
+}
+
+.bg-Nero {
+    background-color: var(--Nero);
+}
+
+.bg-Gondola {
+    background-color: var(--Gondola);
+}
+
+.bg-Davys-gray {
+    background-color: var(--Davys-gray);
+}
+
+.bg-Shadow-Gray {
+    background-color: var(--Shadow-Gray);
+}
+
+.bg-Light-Gray {
+    background-color: var(--Light-Gray);
+}
+
+.font-Bokora-Grey {
+    color: var(--Bokara-Grey);
+}
+
+.font-Nero {
+    color: var(--Nero);
+}
+
+.font-Gondola {
+    color: var(--Gondola);
+}
+
+.font-Davys-gray {
+    color: var(--Davys-gray);
+}
+
+.font-Shadow-Gray {
+    color: var(--Shadow-Gray);
+}
+
+.font-Light-Gray {
+    color: var(--Light-Gray);
+}
